@@ -423,7 +423,7 @@ input, textarea {
         float: none;
         text-align: center;
         padding: 5px 0px;
-        font-size: 0.85px;
+        font-size: 0.85em;
     }
 
     .footer-copy {
