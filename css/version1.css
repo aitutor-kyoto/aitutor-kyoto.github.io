@@ -75,7 +75,7 @@ input {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     border: 1px solid var(--border-color);    
 }
 
@@ -85,7 +85,7 @@ textarea {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    font-size: 1em;
+    font-size: 0.8em;
     border: 1px solid var(--border-color);
 }
 
