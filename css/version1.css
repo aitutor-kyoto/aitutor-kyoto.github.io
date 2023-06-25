@@ -69,13 +69,23 @@ img {
     display: block;
 }
 
-input, textarea {
+input {
     max-width: 400px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
     font-size: 1.4em;
+    border: 1px solid var(--border-color);    
+}
+
+textarea {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 1em;
     border: 1px solid var(--border-color);
 }
 
