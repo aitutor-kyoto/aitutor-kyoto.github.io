@@ -341,10 +341,11 @@ input, textarea {
         margin-bottom: 20px;
     }
 
-    .contents-item-image .image1, .image2{
-        width: 90%;
+    .contents-item-image {
+        width: 100%;
         height: auto;
-        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .contents-item .swap {
