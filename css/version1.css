@@ -14,6 +14,7 @@
     --font-family: sans-serif;
     --line-height: 1.6em;
     --header-height__PC: 100px;
+    --header-height__tablet: 75px;
     --header-height__mobile: 50px;
     --main-height: 600px;
     --footer-height: 100px;
@@ -390,7 +391,21 @@ input, select, button, textarea {
     }
     
     .tablet {
-        display: inline-block;
+        display: block;
+    }
+
+    .header {
+        height: var(--header-height__tablet);
+    }
+
+    .header-logo {
+        margin-left: 0;
+        margin-right: auto; 
+        padding: 0.35em 1.5em;
+    }
+
+    .eyecatch-container img {
+        margin: var(--header-height__tablet) auto 0 auto;
     }
 
     .contents-container {
@@ -503,6 +518,11 @@ input, select, button, textarea {
         margin-top: 0em;
     }
     
+    .contents-item {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
     .contents-item p {
         font-size: 0.85em;
     }
