@@ -71,11 +71,11 @@ img {
 
 input, textarea {
     max-width: 400px;
-    width: 85%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    font-size: 1.8em;
+    font-size: 1.4em;
     border: 1px solid var(--border-color);
 }
 
@@ -244,10 +244,14 @@ input, textarea {
     margin: 0 auto;
 }
 
+.contactform-container .section-title {
+    text-align: center;
+}
+
 .contact-submit {
     background-color: var(--bg-color-base);
     color: var(--font-color-gray);
-  }
+}
 
 .footer {
     color: var(--font-color-light);
