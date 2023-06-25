@@ -171,6 +171,7 @@ input, textarea {
 }
 
 .main {
+    width: 100%;
     background-color: var(--bg-color-base);
     color: var(--font-color-dark);
 }
@@ -265,6 +266,7 @@ input, textarea {
     background-color: var(--bg-color-footer);
     padding: 40px;
     display: flex;
+    width: 100%;
     height: auto;
     flex-direction: column;
 }
