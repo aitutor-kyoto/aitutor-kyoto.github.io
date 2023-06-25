@@ -41,6 +41,10 @@
     display: block;
 }
 
+.mobile {
+    display: none;
+}
+
 body {
     font-family: var(--font-family);
     margin: 0;
@@ -115,6 +119,7 @@ input, textarea {
 }
 
 .header-logo {
+    margin-left: 0;
     margin-right: auto;
     padding: .5em 2em;
     color: var(--font-color-dark);
@@ -280,11 +285,11 @@ input, textarea {
 }
 
 @media(max-width: 1000px){
-    .header-list {
+    .header-list, .PC {
         display: none;
     }
     
-    .header-menu {
+    .header-menu, .mobile {
         display: inline-block;
     }
 
