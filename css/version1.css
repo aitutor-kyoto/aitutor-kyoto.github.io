@@ -380,7 +380,7 @@ input, select, button, textarea {
     }
 
     p {
-        line-height: 1.5em;
+        line-height: 1.7em;
     }
 
     .single-line-form, textarea {
@@ -488,7 +488,7 @@ input, select, button, textarea {
 
     p {
         font-size: 0.85em;
-        line-height: 1.2em;
+        line-height: 1.6em;
     }
 
     .single-line-form, textarea {
