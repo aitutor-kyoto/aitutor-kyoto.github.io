@@ -219,8 +219,13 @@ input, select, button, textarea {
     color: var(--font-color-dark);
 }
 
+.eyecatch-wrapper {
+    margin: 0;
+}
+
 .eyecatch-container {
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -467,7 +472,7 @@ input, select, button, textarea {
     }
 
     .mobile {
-        display: inline-block;
+        display: block;
     }
 
     .non-mobile {
@@ -495,6 +500,7 @@ input, select, button, textarea {
 
     .contents-wrapper {
         padding-top: 0.5em;
+        margin-top: 0em;
     }
     
     .contents-item p {
