@@ -70,11 +70,12 @@ img {
 }
 
 input, textarea {
-    width: 400px;
+    max-width: 400px;
+    width: 85%;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 1.8em;
     border: 1px solid var(--border-color);
 }
 
